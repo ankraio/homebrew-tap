@@ -7,6 +7,11 @@ class Ankra < Formula
   version "0.5.1"
   license "Apache-2.0"
 
+  livecheck do
+    url :stable
+    strategy :github_latest
+  end
+
   on_macos do
     on_arm do
       url "https://github.com/ankraio/ankra-cli/releases/download/v#{version}/ankra-cli-darwin-arm64"
@@ -27,11 +32,6 @@ class Ankra < Formula
       url "https://github.com/ankraio/ankra-cli/releases/download/v#{version}/ankra-cli-linux-amd64"
       sha256 "f9a9255dc2f5073701e800c8aca6be9f937336d9828e17fc56b72e16b72ada7b"
     end
-  end
-
-  livecheck do
-    url :stable
-    strategy :github_latest
   end
 
   def install
