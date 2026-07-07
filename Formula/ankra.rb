@@ -35,7 +35,10 @@ class Ankra < Formula
   end
 
   def install
+    # Release assets are bare binaries (no archive), so the download has no
+    # execute bit; set it before generating completions runs the binary.
     bin.install Dir["ankra-cli-*"].first => "ankra"
+    chmod 0755, bin/"ankra"
     generate_completions_from_executable(bin/"ankra", "completion")
   end
 
