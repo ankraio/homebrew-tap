@@ -4,7 +4,7 @@
 class Ankra < Formula
   desc "Command-line interface for the Ankra Kubernetes platform"
   homepage "https://ankra.io"
-  version "0.7.0"
+  version "0.8.0"
   license "Apache-2.0"
 
   livecheck do
@@ -15,22 +15,22 @@ class Ankra < Formula
   on_macos do
     on_arm do
       url "https://github.com/ankraio/ankra-cli/releases/download/v#{version}/ankra-cli-darwin-arm64"
-      sha256 "1c3255a5cd38a5d85c3353a28cda1b49caa287c81928ae3e35055cc00e57eea7"
+      sha256 "ad59833bf904ec82c2ce7d62a164725f8a2ab6c18dcb1f67fc7a0a5c64f8cc2f"
     end
     on_intel do
       url "https://github.com/ankraio/ankra-cli/releases/download/v#{version}/ankra-cli-darwin-amd64"
-      sha256 "3d0fe1fe787c0e654c67c44d04eb98e2ea2eec8aa6dfa3fcf0564fbf100cb33e"
+      sha256 "42c200c8802b12068fdc1d0d0ddc651488dcc96eb3c03b3240b79d47672adef3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ankraio/ankra-cli/releases/download/v#{version}/ankra-cli-linux-arm64"
-      sha256 "9839a535e9a4942199566e67d180ed54c2dfc48b3c0b7d00a11e60ce6478b0f7"
+      sha256 "ab35d1e187c54f6b6f651dec5378c9f0853b187c305b5eb5e870578d5dd3c609"
     end
     on_intel do
       url "https://github.com/ankraio/ankra-cli/releases/download/v#{version}/ankra-cli-linux-amd64"
-      sha256 "a3117be6cf000d0cd6e1ad1ee1f8045357cbd21f2079f8bb708ee5dcbe121b04"
+      sha256 "13b3fbbd0bfd9db9cd134a732983c43df338826b286ad2a4b253b1927767cae7"
     end
   end
 
