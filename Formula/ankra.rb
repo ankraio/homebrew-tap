@@ -18,23 +18,23 @@ class Ankra < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/ankraio/ankra-cli/releases/download/v0.35.0/ankra-cli-darwin-arm64"
-      sha256 "a4d930984d6e16a415d91781cff9ca2dbca549277756d6c8c5ae9394fedc0dd1"
+      url "https://github.com/ankraio/ankra-cli/releases/download/v0.36.0/ankra-cli-darwin-arm64"
+      sha256 "a9ade38ffdaa3088c9d1944b0bea981ec6fb0fc88e9d161afa8654dddaa08bc5"
     end
     on_intel do
-      url "https://github.com/ankraio/ankra-cli/releases/download/v0.35.0/ankra-cli-darwin-amd64"
-      sha256 "efff5150bf068da315e93a3b0155f5cc9fca1176aa7680560d170708624257fc"
+      url "https://github.com/ankraio/ankra-cli/releases/download/v0.36.0/ankra-cli-darwin-amd64"
+      sha256 "8ec1a34cabb254b442192aeddd13957aee26260efe4cd0ce1c6fb241b25c388d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ankraio/ankra-cli/releases/download/v0.35.0/ankra-cli-linux-arm64"
-      sha256 "9e60bf66419d5465d1990debed59d1146454c43bdf495ce92271cf3b4e7020b0"
+      url "https://github.com/ankraio/ankra-cli/releases/download/v0.36.0/ankra-cli-linux-arm64"
+      sha256 "7592a7ef1147feea0dbe276ddadcfd655a219d6ed0c07f34b8185ab2f2ca4ab1"
     end
     on_intel do
-      url "https://github.com/ankraio/ankra-cli/releases/download/v0.35.0/ankra-cli-linux-amd64"
-      sha256 "9bbf32778d095c5c9130614b0ef142cbd2a9baad525278b3a666a61db716d77c"
+      url "https://github.com/ankraio/ankra-cli/releases/download/v0.36.0/ankra-cli-linux-amd64"
+      sha256 "96138fa8c6c3b83f2e26dc40287e7c3d752caf78d39158a23d7e1c14739f7609"
     end
   end
 
